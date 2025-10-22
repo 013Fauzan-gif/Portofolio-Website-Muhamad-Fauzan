@@ -12,7 +12,11 @@ Halaman Utama (Home)
 Bagian ini menyambut pengunjung dengan perkenalan singkat, jabatan sebagai Computer Science Student di Universitas Negeri Surabaya (UNESA), dan foto profil yang diberi bingkai elegan. Terdapat juga tombol navigasi ke bagian "Tentang Saya" serta link ke profil LinkedIn dan GitHub.
 
 Halaman Bagian Tentang Saya (About Me)
-![alt text](https://github.com/013Fauzan-gif/Portofolio-Website-Muhamad-Fauzan/tree/main/Project%20UTS/Tampilan%20Website/Tampilan%20About)
+![alt text](https://github.com/013Fauzan-gif/Portofolio-Website-Muhamad-Fauzan/blob/main/Project%20UTS/Tampilan%20Website/Tampilan%20About(1).png)
+![alt text](https://github.com/013Fauzan-gif/Portofolio-Website-Muhamad-Fauzan/blob/main/Project%20UTS/Tampilan%20Website/Tampilan%20About(2).png)
+![alt text](https://github.com/013Fauzan-gif/Portofolio-Website-Muhamad-Fauzan/blob/main/Project%20UTS/Tampilan%20Website/Tampilan%20About(3).png)
+![alt text](https://github.com/013Fauzan-gif/Portofolio-Website-Muhamad-Fauzan/blob/main/Project%20UTS/Tampilan%20Website/Tampilan%20About(4).png)
+
 
 Bagian ini menampilkan informasi lebih detail melalui sistem tab yang interaktif:
 About Me: Berisi cerita latar belakang singkat.
