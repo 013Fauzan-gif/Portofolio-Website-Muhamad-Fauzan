@@ -2,7 +2,7 @@
 
 Website portofolio pribadi ini dibuat untuk menampilkan profil, keahlian, dan minat saya. Proyek ini merupakan tugas mata kuliah Pemrograman Berbasis Platform. Didesain dengan tema cokelat vintage menggunakan gradien warna yang konsisten di setiap bagian, memberikan nuansa hangat dan personal.
 
-Link demo youtube : 
+Link demo youtube : https://youtu.be/wZ6WBg4mxF8
 
 Tampilan Website
 
