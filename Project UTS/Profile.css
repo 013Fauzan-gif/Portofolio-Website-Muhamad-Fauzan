@@ -1,0 +1,350 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Variabel Warna */
+:root {
+    --primary-blue: #0d6efd;
+    --dark-text: #212529;
+    --brown-dark: #5D412C;
+    --brown-light: #A47F64;
+    --frame-color: #f0ead6;
+    /* Warna untuk bingkai */
+    --accent-color: #FFC107;
+    /* Warna aksen untuk progress bar */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-text);
+}
+
+/* === STYLING UNTUK NAVBAR === */
+.navbar {
+    background-color: rgba(33, 37, 41, 0.95) !important;
+    backdrop-filter: blur(5px);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.navbar .nav-link:hover {
+    color: white !important;
+}
+
+.navbar .nav-link.active {
+    color: white !important;
+    font-weight: 600;
+    background-color: var(--primary-blue);
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 0 5px;
+}
+
+/* Memberi jarak atas agar konten tidak tertutup navbar saat di-scroll */
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* === STYLING BAGIAN HOME === */
+#home-section {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#home-section,
+#about-section,
+#hobby-section {
+    background: linear-gradient(to right top, var(--brown-dark), var(--brown-light));
+    color: white;
+}
+
+/* Tambahkan ini untuk memperbesar padding About Me */
+#about-section {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+}
+/* **STYLING BARU UNTUK FOOTER** */
+footer {
+    border-top: 2px solid black !important; /* Garis atas hitam, !important untuk override Bootstrap */
+    padding-top: 1.5rem !important; /* Sedikit padding atas */
+    padding-bottom: 1.5rem !important; /* Sedikit padding bawah */
+    margin-top: 0 !important; /* Hapus margin atas default dari kode footer */
+}
+
+footer p {
+    color: black; /* Warna teks copyright sedikit redup */
+    font-size: 0.9rem; /* Ukuran font copyright lebih kecil */
+}
+
+
+
+.hero-text .badge {
+    font-size: 1.1rem;
+    padding: 0.6em 1.2em;
+    font-weight: 600;
+}
+
+.hero-image-frame {
+    background-color: var(--frame-color);
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.hero-image-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    max-height: 60vh;
+    object-fit: cover;
+}
+
+.hero-socials {
+    margin-top: 3rem !important;
+}
+
+.hero-socials .btn-outline-light {
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.hero-socials .btn-outline-light:hover {
+    background-color: white;
+    color: var(--brown-dark);
+}
+
+/* === STYLING BAGIAN ABOUT ME === */
+
+/* 1. Border Foto di About Me */
+.about-image img {
+    border-radius: 10px;
+    /* Radius untuk gambar di dalam */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    /* Tetap ada bayangan yang kuat */
+    padding: 15px;
+    /* Tambah padding agar bingkai lebih tebal */
+    background-color: var(--frame-color);
+    /* Warna bingkai bagian dalam (beige muda) */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    /* Border tipis di luar, sedikit abu-abu */
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 2. Ukuran Tombol Navigasi Tab */
+.tabs-nav .tab-btn {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.9);
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.tabs-nav .tab-btn:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: white;
+    color: white;
+}
+
+.tabs-nav .tab-btn.active {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    color: white;
+}
+
+.tabs-content .tab-pane {
+    display: none;
+}
+
+.tabs-content .tab-pane.active {
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* 3. Ukuran Font "My Story" & Teks Intro Lain */
+#story p,
+#skills p,
+#songs p,
+#contact p,
+#skills h5,
+#songs h4,
+#contact h4 {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+#story h1 {
+    /* Judul My Story sedikit dikecilkan */
+    font-size: 2.2rem;
+}
+
+/* 4. Gaya Indikator Skill */
+.skill-item h5 {
+    color: white;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.skill-item h5 .float-end {
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.skill-item .progress {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 12px;
+    /* Pastikan tinggi konsisten */
+}
+
+.skill-item .progress-bar {
+    background-color: var(--accent-color);
+    border-radius: 5px;
+    transition: width 0.8s ease-in-out;
+}
+
+/* 5. Styling Ikon Lagu Favorit */
+.list-group-item i.bi {
+    vertical-align: middle;
+    font-size: 1.1em;
+    opacity: 0.8;
+    margin-right: 0.5rem;
+}
+
+/* === STYLING UNTUK BAGIAN KONTAK (about-section) === */
+.list-group-item.contact-link {
+    /* Kelas baru untuk kontak */
+    background-color: transparent !important;
+    border: 2px solid rgba(255, 255, 255, 0.7) !important;
+    /* Border mirip tombol sosial */
+    color: white !important;
+    border-radius: 30px;
+    /* Border radius oval */
+    padding: 10px 25px;
+    /* Padding sama dengan tombol sosial */
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    /* Ukuran font sama */
+    margin-bottom: 15px;
+    /* Jarak antar tombol kontak */
+    display: inline-flex;
+    /* Agar bisa pakai fit-content dan align items */
+    align-items: center;
+    /* Tengahkan vertikal */
+    justify-content: center;
+    /* Tengahkan horizontal */
+    width: fit-content;
+    /* Sesuaikan lebar dengan konten */
+    max-width: 100%;
+    /* Pastikan tidak melebihi lebar kontainer */
+}
+
+.list-group-item.contact-link:hover {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border-color: white !important;
+    color: white !important;
+}
+
+.list-group-item.contact-link i.bi {
+    font-size: 1.25rem;
+    /* Ukuran ikon sedikit lebih besar */
+    margin-right: 10px;
+    /* Jarak ikon dengan teks */
+    vertical-align: middle;
+    /* Pastikan ikon tetap tengah */
+}
+
+/* Override gaya list-group-item yang umum di dalam #contact agar tidak bentrok */
+#contact .list-group-item {
+    border: none !important;
+    /* Hilangkan border default list-group-item */
+    padding: 0;
+    /* Hilangkan padding default */
+    background-color: transparent !important;
+    /* Pastikan background transparan */
+}
+
+/* === STYLING BAGIAN HOBBY === */
+.hobby-card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+    color: var(--dark-text);
+}
+
+.hobby-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.hobby-card .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* List Group di About Me (Favorite Songs & Kontak) - Penyesuaian Umum */
+.list-group-item {
+    background-color: transparent !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    padding-top: 0.75rem;
+    /* Padding vertikal */
+    padding-bottom: 0.75rem;
+}
+
+.list-group-item strong {
+    color: white !important;
+}
+
+.list-group-item:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Agar judul section kontras */
+.display-5,
+.lead {
+    color: white;
+}
+
+/* Mengatur agar teks pada hobby-section tidak ikut putih */
+#hobby-section .lead {
+    color: rgba(255, 255, 255, 0.85);
+}
+
