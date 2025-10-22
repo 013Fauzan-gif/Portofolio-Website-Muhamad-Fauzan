@@ -4,15 +4,16 @@ Website portofolio pribadi ini dibuat untuk menampilkan profil, keahlian, dan mi
 
 Link demo youtube : 
 
-Tampilan Website Keseluruhan
-![alt text](https://github.com/013Fauzan-gif/Portofolio-Website-Muhamad-Fauzan/blob/main/Tampilan%20Website/SS%20Project%20UTS.png)
-
-Deskripsi Tiap Halaman :
+Tampilan Website
 
 Halaman Utama (Home)
+![alt text](https://github.com/013Fauzan-gif/Portofolio-Website-Muhamad-Fauzan/blob/main/Project%20UTS/Tampilan%20Website/Tampilan%20Home.png)
+
 Bagian ini menyambut pengunjung dengan perkenalan singkat, jabatan sebagai Computer Science Student di Universitas Negeri Surabaya (UNESA), dan foto profil yang diberi bingkai elegan. Terdapat juga tombol navigasi ke bagian "Tentang Saya" serta link ke profil LinkedIn dan GitHub.
 
 Halaman Bagian Tentang Saya (About Me)
+![alt text](https://github.com/013Fauzan-gif/Portofolio-Website-Muhamad-Fauzan/tree/main/Project%20UTS/Tampilan%20Website/Tampilan%20About)
+
 Bagian ini menampilkan informasi lebih detail melalui sistem tab yang interaktif:
 About Me: Berisi cerita latar belakang singkat.
 Skills: Menampilkan keahlian teknis (Canva, Microsoft Office, Cisco Packet Tracer, Wokwi) dengan progress bar sebagai indikator tingkat kemahiran.
@@ -21,6 +22,8 @@ Kontak: Informasi kontak (Email dan Instagram) dalam format tombol yang rapi.
 Di samping konten tab, terdapat foto tambahan dengan border bergaya klasik.
 
 Halaman Bagian Hobi (Hobby)
+![alt text](https://github.com/013Fauzan-gif/Portofolio-Website-Muhamad-Fauzan/blob/main/Project%20UTS/Tampilan%20Website/Tampilan%20Hobby.png)
+
 Bagian ini dipisahkan dari bagian sebelumnya dengan elemen SVG wave berwarna beige. Menampilkan empat hobi utama (Streaming MV, Bermain Game, Fotografi, Jogging) dalam format grid 2x2 menggunakan card Bootstrap yang bersih dan visual.
 
 
